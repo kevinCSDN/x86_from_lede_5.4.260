@@ -15,7 +15,7 @@
 
 #rm -rf feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
 
-sed -i '1i src-git kenzo https://github.comkevinCSDN/openwrt-packages_2025' feeds.conf.default
+sed -i '1i src-git kenzo https://github.com/kevinCSDN/openwrt-packages_2025' feeds.conf.default
 #sed -i '1i src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '2i src-git small https://github.com/kevinCSDN/small_2024' feeds.conf.default
 
